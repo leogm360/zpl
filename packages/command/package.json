@@ -1,0 +1,25 @@
+{
+  "name": "@zpl/command",
+  "author": "@leogm360",
+  "description": "ZPL2 command set implementations for js/ts.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "zpl",
+    "zpl2",
+    "zebra-printer"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src --ext .ts --max-warnings 0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@zpl/typescript": "*",
+    "@zpl/eslint": "*",
+    "eslint-config-prettier": "^9.1.0",
+    "typescript-eslint": "^8.10.0",
+    "typescript": "^5.4.5"
+  }
+}

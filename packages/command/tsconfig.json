@@ -1,0 +1,4 @@
+{
+  "extends": ["@zpl/typescript/tsconfig.base.json"],
+  "include": ["src"]
+}
